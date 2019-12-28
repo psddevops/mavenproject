@@ -15,6 +15,12 @@ public class SimpleServlet extends HttpServlet {
    @Override
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
+	   
+	  int i=10000;
+	  int j=10000;
+	  int k=10000;
+	  int l=10000;
+	  
       resp.setContentType("text/plain");
       resp.getWriter().write("Hello World! Maven Web Project Example.");
    }
